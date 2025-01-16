@@ -1,8 +1,10 @@
 services:
   mt5:
-    build: .
-    image: gmag11/metatrader5_vnc
     container_name: mt5
+    image: mt5
+    build:
+      context: .
+      dockerfile: Dockerfile
     volumes:
       - ./config:/config
     ports:
@@ -10,4 +12,3 @@ services:
       - 8001:8001
     env_file:
       - .env
-
