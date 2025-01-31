@@ -25,6 +25,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -49,6 +51,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -73,6 +77,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -97,6 +103,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -121,6 +129,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -145,6 +155,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -169,6 +181,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -193,6 +207,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -217,6 +233,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
@@ -241,6 +259,8 @@ services:
           cpus: "0.25"
           memory: 512M
     restart: unless-stopped
+    networks:
+      - portainer-nginx-proxy-manager_default #change this to your network
     logging:
       options:
         max-size: "10m"
