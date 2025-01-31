@@ -19,8 +19,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -45,8 +45,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -71,8 +71,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -97,8 +97,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -123,8 +123,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -149,8 +149,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -175,8 +175,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -201,8 +201,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -227,8 +227,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
@@ -253,8 +253,8 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "16.0"
-          memory: 4G
+          cpus: "6.0"
+          memory: 16G
         reservations:
           cpus: "0.25"
           memory: 512M
