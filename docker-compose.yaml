@@ -19,7 +19,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -45,7 +45,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -71,7 +71,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -97,7 +97,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -123,7 +123,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -149,7 +149,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -175,7 +175,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -201,7 +201,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -227,7 +227,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
@@ -253,7 +253,7 @@ services:
     deploy:
       resources:
         limits:
-          cpus: "2.0"
+          cpus: "16.0"
           memory: 4G
         reservations:
           cpus: "0.25"
