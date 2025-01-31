@@ -1,3 +1,7 @@
+networks:
+  portainer-nginx-proxy-manager_default: #change this to your network
+    external: true
+
 services:
   mt5_1:
     container_name: mt5_1
